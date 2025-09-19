@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'gelroy';
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100%;
+    color: aliceblue;
+    padding: 30px 40px;
+}
+#nav h3{
+   font-size: 12px;
+   /* font-family: 'Courier New', Courier, monospace; */
+   font-weight: 600;
+   background-color: black;
+   border-radius: 15px;
+   padding: 9px 8px;
+   margin-left: 5px;
+
+}
+#intro{
+    height: 30%;
+    width:100% ;
+}
+#intro h1{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 68px;
+    word-spacing: -3px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 20px 40px;
+}
+#place{
+    margin-top: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#place h3,#place h4{
+    margin-top: -5px;
+    padding-left: 40px;
+    padding-right: 30px;
+    font-size: 20px;
+    font-weight:500;
+}
+#image{
+    width: 100%;
+    height: 87%;
+    background-image: url(https://assets-global.website-files.com/64589fb989b2b33c593db89d/6458a6db645ec6a527000cfa_home-hero-p-1600.webp);
+    background-size: cover;
+}
+#about{
+    padding-top: 40px;
+    height: 45%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#about h2{
+    height: 100%;
+    width: 60%;
+    font-size: 60px;
+    padding: 10px 40px;
+    line-height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+#abt2{
+    height: 100%;
+    width: 45%;
+    border-left: 2px solid black;
+    padding: 10px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#abt2 h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#icon i{
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+#work{
+    height: 45%;
+    width: 100%;
+    border-top: 2px solid black; 
+    display: flex;
+    padding: 30px 40px;
+}
+#work1 {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+    padding-right: 10px;  
+    border-right: 2px solid black;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#work2{
+    height: 100%;
+    width: 70%;
+    padding: 0 60px;
+}
+.work21{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    
+}
+.work22{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    
+}
+.work21:nth-child(1){
+    border-bottom: 2px solid black;
+}
+.work21 .elem{
+    width: 50%;
+    height: 100%;
+}
+.work21 .elem:nth-child(1){
+    padding-left: 30px;
+    border-right: 2px solid black;
+}
+.work21 .elem:nth-child(2){
+    padding-left: 60px;
+    
+}
+
+.work22:nth-child(1){
+    border-bottom: 2px solid black;
+}
+.work22 .elem{
+    width: 50%;
+    height: 100%;
+}
+.work22 .elem:nth-child(1){
+    padding-left: 30px;
+    border-right: 2px solid black;
+}
+.work22 .elem:nth-child(2){
+    padding-left: 60px;
+    
+}
+.elem h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+.elem p{
+    padding-top: 10px;
+}

@@ -1,0 +1,32 @@
+h1{
+    color: rgb(255, 207, 204);
+    background-color: rgb(1, 0, 0);
+    font-size: 60px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 500;
+}
+#box{
+    height: 500px;
+    width: 500px;
+    background-color: blueviolet;
+    margin: 40px;
+    padding: 20px;
+}
+#box h2{
+    color: blue;
+    font-size: 70px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#box1{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    top: 150%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}

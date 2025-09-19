@@ -1,0 +1,4 @@
+what is tailwind css?
+-> the benifit of using this is we can style the html element with out leaving the html page or html file with the help of classes 
+
+* changed in package.json "test": "echo \"Error: no test specified\" && exit 1" in the "scripts:"

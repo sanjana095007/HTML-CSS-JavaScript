@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html ,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 50px;
+}
+#nav1{
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+#nav2{
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+#nav h3{
+    font-size: 18px;
+    font-weight: 540;
+}
+#nav h4{
+    font-size: 18px;
+    font-weight: 540;
+}
+#content{
+    margin-top: 90px;
+    padding: 40px 50px;
+}
+#content h3{
+    font-size: 30px;
+    font-weight: 300;
+}
+#content h1{
+    font-size: 140px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    
+    line-height: 150px;
+}
+#case{
+    padding: 40px 50px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#case h4{
+    font-size: 20px;
+    font-weight:600;
+}
+#case h5{
+    font-size: 15px;
+    font-weight:600;
+}
+#right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+#line {
+    border-bottom: 2px solid black;
+    width: 75%;
+    padding-right: 60px;
+}
+#project{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     gap: 80px;
+     padding: 40px 50px;
+}
+.elem{
+    width: 50%;
+}
+.elem-img{
+    
+   height: 600px; 
+   width: 100%;
+   background-color: rgb(203, 83, 83);
+   border-radius: 30px; 
+   background-position: center;
+   background-size: cover;
+}
+#img1{
+    background-image: url(https://pagedone.io/asset/uploads/1707480017.png);
+}
+#img2{
+    background-image: url(https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e7/61/b8/e761b8c1-6330-186d-3952-60ff06f10dda/b937b3d6-4ac9-4106-97f6-f1c4c0b94436_ss_8.png/643x0w.jpg);
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.bottom i{
+    padding: 15px 30px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 50px;
+    font-weight: 600;
+}
+.bottom i:hover{
+    background-color: black;
+    color: aliceblue;
+}
+.btmleft h2{
+    font-size: 25px;
+    font-weight: 600;
+}
+.btmleft h4{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 200;
+}
+

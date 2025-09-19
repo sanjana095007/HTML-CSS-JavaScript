@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+    color: white;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(14, 13, 13);
+    display: flex;
+    padding: 80px 80px;
+}
+#left{
+    background-color: rgb(99, 98, 98);
+    height: 100%;
+    width: 45%;
+    /* background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcToy00iXbCIwfY94PA_70vmLAXXifuPHM3FmjDX1cWvUedBtEXxUkvyS0F7hvsq4zrFOEbjpg); */
+    background-size: cover;
+    background-position: top;
+}
+#rigth{
+    background-color: rgb(14, 12, 12);
+    height: 100%;
+    width:55% ;
+    padding: 0 40px;
+}
+#rigth h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+#allcard{
+    height: 80%;
+    width: 85%;
+   
+}
+.cards{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-top: 10px;
+border-top: 1px solid rgb(74, 73, 73);
+padding: 12px 10px;
+}
+.cards img{
+    object-fit: cover;
+    object-position: center;
+    height: 45px;
+    width: 45px;
+}
+.cards .songs{
+    display: flex;
+    align-items: center;
+    pointer-events: none;
+}
+.cards h2{
+    font-size: 20px;
+    padding-left: 15px;
+}
+.cards h4{
+    font-size: 15px;
+    padding-left: 15px;
+}
+.cards:nth-last-child(1){
+    border-bottom: 1px solid rgb(85, 83, 83);
+}
+.cards:hover{
+    background-color: rgb(21, 21, 21);
+}
+#player{
+    background-color: black;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+#player h3{
+    background-color: rgb(30, 28, 28);
+    padding: 10px;
+    border-radius: 50%; 
+}
+#player h3:active{
+    scale: 0.95;
+}
+#play{
+    font-size: 20px;
+    font-weight: 500;
+}
+#backward{
+    font-size: 20px;
+    font-weight: 500;
+}
+#forward{
+    font-size: 20px;
+    font-weight: 500;
+}

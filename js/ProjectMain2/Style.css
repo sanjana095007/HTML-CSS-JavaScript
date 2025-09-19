@@ -1,0 +1,244 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color:rgb(237, 234, 234);
+
+}
+
+#main{
+    height: 100%;
+    width: 100%; 
+    display: flex; 
+    align-items: flex-start;
+    justify-content: space-between;
+}
+#menu {
+    width: 100%;
+    padding: 20px 30px;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+#shopping {
+ padding: 20px 30px;
+ font-size: 20px;
+    font-weight: 400;
+}
+#search input{
+    margin-top: 20px;
+    margin-left: 30px;
+    display: flex;                  
+    padding: 20px 30px;
+    border-radius: 20px;            
+    flex-grow: 1;
+    margin-right: 30px;
+    width: 90%;
+    border: none;
+    background-color: rgb(208, 204, 204);
+}
+.btn1{
+    margin-top: 20px;
+    margin-left: 29px;
+    border-radius: 50%;
+    padding: 25px ;
+    background-color: rgb(243, 236, 236);
+    color:black;
+    font-size: 20px;
+    border: none;
+    box-shadow: 0 7px 8px rgba(0.5, 0.5, 0.5, 0.5);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+.box{
+    margin-top: 30px;
+    margin-left: 50px;
+    height: 400px;
+    width: 350px;
+    background-color:whitesmoke;
+    border: none;
+    border-radius: 6px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+.boxinside{
+    height: 250px;
+    width: 260px;
+    background-color: rgb(203, 197, 197);
+    border-radius: 6px;
+}
+.boxinside img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+    object-position: center;
+}
+.box h3{
+    font-size: 20px;
+    padding-top: 10px;
+    font-weight: 600;
+}
+.box h4{
+    width: 70%;
+    padding-top: 45px;
+    color:gray;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: -40px;
+}
+.box h5{
+    margin-top: 8px;
+    font-size: 15px;
+    font-weight: 700;
+    padding-right: 90px;
+}
+.add {
+    font-size: 14px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    border: none;
+    float: right;  
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+
+h1{
+    font-size: 20px;
+    margin: 30px;
+    font-weight: 700;
+}
+.abt{
+    background-color:whitesmoke;
+    height: 110px;
+    width: 600px;
+    margin-left: 60px;
+    border-radius: 8px;
+    padding: 10px 10px;
+    display: inline-block;
+}
+.image{
+    height: 90px;
+    width: 100px;
+    background-color: rgb(186, 177, 177);
+    border-radius: 5px;
+}
+.image img{
+    object-fit: cover;
+    object-position: top;
+}
+.eyes{
+    padding-left: 120px;
+    margin-top: -80px;
+}
+.bisco{
+    padding-left: 120px;
+    margin-top: 10px;
+    color: rgb(139, 138, 138);
+
+}
+.dollar{
+    padding-left: 120px;
+    margin-top: 10px;
+}
+#footer{
+    position: fixed;  
+    bottom: 0;      
+    left: 0;           
+    width: 100%;       
+    background-color: whitesmoke;
+    padding: 15px 0;   
+    display: flex;     
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.1); 
+    z-index: 1000; 
+    
+}
+
+#home{
+    margin-left: 30px;
+    color: rgb(70, 65, 65);
+    font-size: 22px;
+}
+#heart{
+    margin-left: 30px;
+    color: rgb(143, 139, 139);
+    font-size: 22px;
+}
+#cart{
+    margin-left: 650px;
+    margin-top: -50px;
+    border-radius: 50%;
+    padding: 25px ;
+    background-color: rgb(243, 236, 236);
+    color:black;
+    font-size: 20px;
+    border: none;
+    box-shadow: 0 7px 8px rgba(0.5, 0.5, 0.5, 0.5);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+#setting{
+    margin-left: 600px;
+     color: gray;
+     font-size: 22px;
+     font-weight: 600;
+}
+#profile{
+     margin-left:20px;
+     color: gray;
+     font-size: 22px;
+}
+.cartexpnd{
+    background-color: whitesmoke;
+    height: 100px;
+    width: 350px;
+    margin-top: 20px;
+    margin-left: 1150px;
+    padding: 10px;
+    display: none;
+}
+.display{
+    background-color: rgb(90, 130, 165);
+    height: 80px;
+    width: 80px;
+}
+.names{
+  margin-left: 20px;
+  margin-top:-10px ;
+  font-size: 20px;
+}
+.prices{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+.display img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    object-position: center;
+}
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 12px;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

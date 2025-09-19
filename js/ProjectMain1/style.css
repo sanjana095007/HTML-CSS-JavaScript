@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#pin{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+#logo{
+    padding: 20px 30px;
+}
+#symbol{
+    height: 45px;
+    width: 55px;
+    top: 7%;
+    left: 46%;
+}
+.bar{
+    color: black;
+    text-decoration: none;
+    font-size:15px;
+    font-weight: 800;
+    margin-right: 20px;
+}
+#search{
+    margin-left: 20px;
+    display: flex;                  
+    background-color: rgb(239, 227, 227);
+    border-radius: 30px;            
+    padding: 5px 10px;
+     flex-grow: 1;
+}
+#search input{
+    border: none;
+    outline: none;
+    background-color: rgb(239, 227, 227);
+    border-radius: 10px;
+    padding: 20px 40px;
+    flex-grow: 1;    
+}
+#btn{
+    border: none;
+    background: none;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    margin-left: 20px;
+}
+#icons {
+    
+    gap: 20px;   /* space between icons */
+    margin-left: 20px;
+}
+#icons i{
+    font-size: 20px;           
+    color: white;                
+    background: gray;            
+    border-radius: 100%;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;  
+    margin-left: 20px;        
+}
+#profile img{
+    margin-left: 20px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+#image{
+
+    align-items: center;
+    display: inline-block;
+}
+#image img{
+    height: 300px;
+    width: 300px;
+    padding: 20px 30px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 15%;
+}
+.overlay {
+  display: none;             
+  position: fixed;            
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);  
+  z-index: 9999;             
+}
+/* 
+.searchdata {
+  max-height: 250px;
+  overflow-y: auto;
+} */
